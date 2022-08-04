@@ -11,11 +11,11 @@
     "Usage: %s TIME REPEAT COMMAND\n\n" \
     "TIME: the intended time to run COMMAND\n" \
     "Format (24h): HOUR:MINUTE:SECOND or\n" \
-	"              HOUR:MINUTE        or\n" \
-	"              HOUR\n\n" \
+    "              HOUR:MINUTE        or\n" \
+    "              HOUR\n\n" \
     "COMMAND: the shell command to run at TIME\n" \
     "Example: aplay alarm-tune.wav\n\n" \
-	"REPEAT: o[nce]|l[oop]\n"
+    "REPEAT: o[nce]|l[oop]\n"
 
 int
 main(int argc, char *argv[])
